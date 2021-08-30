@@ -5,18 +5,22 @@
         <meta name="viewport" conten="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Comaptilbe" content="ie-edge">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <link rel="stylesheet" href="style.css">
-        <title>Hello There</title>
+        <title>Saumya Rai</title>
     </head>
     <body>
         <header class="main-header">
-            <h1><span>Hello! </span>I'm Saumya Rai</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eligendi.</p>
+            <h1 data-aos="slide-left"><span>Hello! </span>I'm Saumya Rai</h1>
+            <p data-aos="slide-right">And Here's My Link Tree.</p>
+            <img src="https://i.pinimg.com/originals/75/ef/c5/75efc5c504cebcaeab51766b5eff9bcf.gif" alt="">
         </header>
 
         <main class="container">
-            <section class="card">
-                <img src="img/IMG_0336.JPG" alt="">
+
+            <section class="card" data-aos="zoom-in">
+                <img src="https://www.pngitem.com/pimgs/m/162-1623186_free-png-download-design-welcome-png-images-background.png" alt="">
                 <div>
                     <h3>Acrylic Painting One</h3>
                     <p>
@@ -28,8 +32,22 @@
                 </div>
             </section>
 
-            <section class="card">
-                <img src="img/IMG_0336.JPG" alt="">
+            <section class="card" data-aos="fade-left">
+                <img src="https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg" alt="">
+                <div>
+                    <h3>Acrylic Painting One</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Minus, modi. Adipisci quas, non recusandae tenetur eveniet quo illo totam nobis sunt 
+                        labore provident nesciunt asperiores, architecto itaque odit delectus sint?
+                    </p>
+                    <a href="https://www.codechef.com/users/saumyarai2010" target="_blank" rel="noopener noreferrer"class="btn">Buy Now</a>
+                    <!-- target= blank helps to open the link in new window else it will open in the same window -->
+                </div>
+            </section>
+
+            <section class="card" data-aos="fade-right">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" alt="">
                 <div>
                     <h3>Acrylic Painting One</h3>
                     <p>
@@ -41,8 +59,8 @@
                 </div>
             </section>
 
-            <section class="card">
-                <img src="img/IMG_0336.JPG" alt="">
+            <section class="card" data-aos="fade-left">
+                <img src="https://pbs.twimg.com/profile_images/910592237695676416/7xInX10u.jpg" alt="">
                 <div>
                     <h3>Acrylic Painting One</h3>
                     <p>
@@ -54,8 +72,8 @@
                 </div>
             </section>
 
-            <section class="card">
-                <img src="img/IMG_0336.JPG" alt="">
+            <section class="card" data-aos="fade-right">
+                <img src="https://www.kindpng.com/picc/m/159-1596109_logo-instagram-vector-2017-hd-png-download.png" alt="">
                 <div>
                     <h3>Acrylic Painting One</h3>
                     <p>
@@ -67,8 +85,21 @@
                 </div>
             </section>
 
-            <section class="card">
-                <img src="img/IMG_0336.JPG" alt="">
+            <section class="card" data-aos="fade-left">
+                <img src="https://www.kindpng.com/picc/m/128-1280192_github-logo-png-github-png-transparent-png.png" alt="">
+                <div>
+                    <h3>Acrylic Painting One</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Minus, modi. Adipisci quas, non recusandae tenetur eveniet quo illo totam nobis sunt 
+                        labore provident nesciunt asperiores, architecto itaque odit delectus sint?
+                    </p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </section>
+
+            <section class="card" data-aos="fade-right">
+                <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" alt="">
                 <div>
                     <h3>Acrylic Painting One</h3>
                     <p>
@@ -80,5 +111,13 @@
                 </div>
             </section>
         </main>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              offset:300,
+              duration:1000
+          });
+        </script>
+      
     </body>
 </html>
