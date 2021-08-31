@@ -8,8 +8,7 @@
     font-size: 1.3rem;
     font-family: 'Oswald', sans-serif;
     background: #f9f9f9;
-    background-image: url(img/Evening_Scenery.png); 
-    background-size: cover;
+    
   }
   
   a {
@@ -34,7 +33,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    background-image: url(img/Evening_Scenery.png); 
+    background-size: cover;
   
   }
   html::-webkit-scrollbar {
