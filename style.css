@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
   
   body {
     font-size: 1.3rem;
     font-family: 'Oswald', sans-serif;
     background: #f9f9f9;
+    color:#4EB1BA
     
   }
   
@@ -54,14 +56,27 @@ html::-webkit-scrollbar-thumb {
     font-size: 4rem;
     margin-bottom: 2rem;
     line-height: 1.2;
+    font-family: 'Anurati', sans-serif;
+    color: #222930;
+                                                
   }
   
   .main-header h1 span {
-    color: #b50d10;
+    color: #4EB1BA;
+    font-family: 'Anurati', sans-serif;
+    
   }
   
   .main-header p {
     font-size: 2rem;
+    font-family: 'Blanka', sans-serif;
+                                                
+                                                
+                                                
+  }
+  .main-header p span{
+    color: #222930;
+    font-size: 1.5rem;
   }
   .main-header img{
       padding-top: 1px;
