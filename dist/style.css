@@ -103,6 +103,7 @@ html::-webkit-scrollbar-thumb {
   
   .card img {
     height: 400px;
+    padding: 10px;
   }
   
   .card > div {
