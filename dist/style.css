@@ -123,10 +123,16 @@ html::-webkit-scrollbar-thumb {
     padding: 0.8rem 1.8rem;
     margin-top: 2rem;
     cursor: pointer;
+    
   }
   
   .btn:hover {
     opacity: 0.8;
+  color: red;
+  font-family: 'Creepster', serif;
+  font-size: inherit;
+  
+
   }
   
   @media(max-height:100%) {
